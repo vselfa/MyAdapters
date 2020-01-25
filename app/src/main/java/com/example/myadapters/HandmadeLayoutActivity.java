@@ -14,7 +14,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
-public class HandmadeLayoutActivity extends AppCompatActivity {
+public class HandmadeLayoutActivity extends MainMenu  {
 
     private String[] llibres = {"El ninot de neu",
             "Senyoria", "Els assassins de l'emperador"};

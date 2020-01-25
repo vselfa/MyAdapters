@@ -22,8 +22,8 @@
         android:textColor="@color/colorPrimary"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/lstOptions"
-        app:layout_constraintEnd_toEndOf="@+id/lstOptions"
+        app:layout_constraintBottom_toTopOf="@+id/lstWriters"
+        app:layout_constraintEnd_toEndOf="@+id/lstWriters"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

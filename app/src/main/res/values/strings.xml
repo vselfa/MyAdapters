@@ -3,8 +3,12 @@
     <string name="action_settings">Settings</string>
     <string name="home">Home</string>
     <string name="content_main">My adapters</string>
-    <string name="title_activity_simplest_adapter">The Simplest Adapter:q</string>
-    <string name="simplest_adapter">The simplest adapter</string>
-    <string name="title_activity_handmade_layout">HandmadeLayoutActivity</string>
+    <string name="title_activity_simplest_adapter">The First Adapter</string>
+    <string name="simplest_adapter">The first adapter</string>
+    <string name="title_activity_handmade_layout">Handmade Layout Activity</string>
     <string name="handmade_adapter">Handmade adapter</string>
+    <string name="title_activity_handmade_layout_with_pictures">Simple Adapter Activity
+    </string>
+    <string name="simple_adapter">The Simple Adapter</string>
+    <string name="writer_name">Writer name</string>
 </resources>

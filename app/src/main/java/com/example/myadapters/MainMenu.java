@@ -25,7 +25,7 @@ public class MainMenu extends AppCompatActivity {
         }
 
         if (id == R.id.simplestAdapter) {
-            intent = new Intent(this, SimplestAdapterActivity.class);
+            intent = new Intent(this, FirstAdapterActivity.class);
             intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         }
 
@@ -33,6 +33,12 @@ public class MainMenu extends AppCompatActivity {
             intent = new Intent(this, HandmadeLayoutActivity.class);
             intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         }
+
+        if (id == R.id.simpleAdapter) {
+            intent = new Intent(this, SimpleAdapterActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        }
+
         startActivity(intent); //Starting the new activity
         return true;
     }

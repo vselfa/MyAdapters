@@ -10,11 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".HandmadeLayoutActivity"
-            android:label="@string/title_activity_handmade_layout"
+            android:name=".SimpleAdapterActivity"
+            android:label="@string/title_activity_handmade_layout_with_pictures"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
-            android:name=".SimplestAdapterActivity"
+            android:name=".HandmadeLayoutActivity"
+            android:label="@string/title_activity_handmade_layout"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FirstAdapterActivity"
             android:label="@string/title_activity_simplest_adapter"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
