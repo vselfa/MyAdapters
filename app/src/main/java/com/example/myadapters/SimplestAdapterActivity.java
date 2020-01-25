@@ -9,8 +9,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 public class SimplestAdapterActivity extends MainMenu {
 
@@ -32,5 +34,13 @@ public class SimplestAdapterActivity extends MainMenu {
         // The View
         myListView = findViewById (R.id.lstOptions);
         myListView.setAdapter(adapter);
+        // The listener
+        myListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            public void onItemClick(AdapterView<?> parent, View v, int position, long id) {
+                String text = (String) (myListView.getItemAtPosition(position));
+                Toast.makeText(SimplestAdapterActivity.this, "Item selected: "
+                                + position + " Text: " + text, Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 }

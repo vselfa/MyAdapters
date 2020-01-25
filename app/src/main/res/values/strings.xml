@@ -5,4 +5,6 @@
     <string name="content_main">My adapters</string>
     <string name="title_activity_simplest_adapter">The Simplest Adapter:q</string>
     <string name="simplest_adapter">The simplest adapter</string>
+    <string name="title_activity_handmade_layout">HandmadeLayoutActivity</string>
+    <string name="handmade_adapter">Handmade adapter</string>
 </resources>
