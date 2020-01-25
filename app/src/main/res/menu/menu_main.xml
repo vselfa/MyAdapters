@@ -7,4 +7,10 @@
         android:orderInCategory="100"
         android:title="@string/home"
         app:showAsAction="never" />
+
+    <item
+        android:id="@+id/simplestAdapter"
+        android:orderInCategory="100"
+        android:title="@string/simplest_adapter"
+        app:showAsAction="never" />
 </menu>

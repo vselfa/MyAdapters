@@ -23,6 +23,11 @@ public class MainMenu extends AppCompatActivity {
             intent = new Intent(this, MainActivity.class);
             intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         }
+
+        if (id == R.id.simplestAdapter) {
+            intent = new Intent(this, SimplestAdapterActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        }
         startActivity(intent); //Starting the new activity
         return true;
     }
