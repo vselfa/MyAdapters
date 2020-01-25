@@ -9,8 +9,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 public class HandmadeLayoutActivity extends AppCompatActivity {
 
@@ -31,5 +33,13 @@ public class HandmadeLayoutActivity extends AppCompatActivity {
         // The View
         myBooks = findViewById(R.id.lstOptions);
         myBooks.setAdapter(adapter);
+        // The listener
+        myBooks.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            public void onItemClick(AdapterView<?> parent, View v, int position, long id) {
+                String bookName = llibres[position];
+                Toast.makeText(HandmadeLayoutActivity.this, " Selected book name: "
+                        + bookName, Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 }
