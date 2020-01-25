@@ -13,4 +13,9 @@
     <string name="writer_name">Writer name</string>
     <string name="title_activity_array_adapter">Array Adapter Activity</string>
     <string name="array_adapter">Array Adapter</string>
+    <string name="title_activity_fruits">Fruits Activity</string>
+    <string name="fruits_adapter">Fruits Adapter</string>
+    <string name="fruit_name">Fruit name</string>
+    <string name="fruit_description">Fruit description</string>
+    <string name="fruit_adapter">Fruits Adapter</string>
 </resources>
