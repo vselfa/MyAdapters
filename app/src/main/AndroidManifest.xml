@@ -10,9 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".ArrayAdapterActivity"
+            android:label="@string/title_activity_array_adapter"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
             android:name=".SimpleAdapterActivity"
             android:label="@string/title_activity_handmade_layout_with_pictures"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".HandmadeLayoutActivity"
             android:label="@string/title_activity_handmade_layout"

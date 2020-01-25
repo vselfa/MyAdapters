@@ -11,4 +11,6 @@
     </string>
     <string name="simple_adapter">The Simple Adapter</string>
     <string name="writer_name">Writer name</string>
+    <string name="title_activity_array_adapter">Array Adapter Activity</string>
+    <string name="array_adapter">Array Adapter</string>
 </resources>
