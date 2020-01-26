@@ -16,7 +16,7 @@ public class FruitsActivity extends MainMenu {
     // Example of using an ArrayAdapter class
     private String[] fruitsName  = {"Mango","Banana", "Water melon", "Grapes", "Kiwi"};
     private String[] fruitsDescription  = {"Mango", "Plàtan", "Meló d'Alger", "Raïm", "Kiwi"};
-    private int[]    fruitsPhoto = {R.drawable.water_melon, R.drawable.banana, R.drawable.water_melon, R.drawable.grapes, R.drawable.kiwi};
+    private int[]    fruitsPhoto = {R.drawable.mango, R.drawable.banana, R.drawable.water_melon, R.drawable.grapes, R.drawable.kiwi};
     private ListView myFruitsListView;
 
     @Override

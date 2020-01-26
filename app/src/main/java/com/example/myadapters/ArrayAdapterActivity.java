@@ -62,7 +62,7 @@ public class ArrayAdapterActivity extends MainMenu {
     // Out of onCreate
     public void buildDialog (String title, String message, int position) {
         final ImageView image = new ImageView(this);
-        image.setImageResource(writersPhoto[position]);
+        image.setImageResource(photosBooks[position]);
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle(title);     builder.setMessage(message);
         builder.setPositiveButton("OK", null); builder.setView(image);
