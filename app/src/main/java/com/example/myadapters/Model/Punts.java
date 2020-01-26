@@ -5,13 +5,10 @@ public class Punts {
     Integer puntsEquip;
     Integer puntsJugadors;
 
-    public Punts() {};
-
     public Punts (Integer pE, Integer pJ) {
         this.puntsEquip = pE;
         this.puntsJugadors = pJ;
     }
-
     public Integer getPuntsEquip() {
         return puntsEquip;
     }

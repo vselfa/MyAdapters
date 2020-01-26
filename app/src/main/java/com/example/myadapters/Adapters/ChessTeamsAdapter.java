@@ -48,7 +48,7 @@ public class ChessTeamsAdapter  extends ArrayAdapter<ChessTeam> {
 
         // Transformar el nom de la foto en R.drawable.nom_foto
         // Eliminar corxets del nom de la foto si utilitzem Multimap
-        String nomFoto = fotoE.substring(1, fotoE.length()-1);
+        // String nomFoto = fotoE.substring(1, fotoE.length()-1);
         // int foto = mContext.getResources().getIdentifier( nomFoto, "drawable", mContext.getPackageName());
         // No elimiminem corchets
         int foto = mContext.getResources().getIdentifier( fotoE, "drawable", mContext.getPackageName());

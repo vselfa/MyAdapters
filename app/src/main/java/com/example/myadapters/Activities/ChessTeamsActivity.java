@@ -22,7 +22,7 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-public class ChessTeamsActivity extends AppCompatActivity {
+public class ChessTeamsActivity extends MainMenu {
 
     // Per poder ordenar claus repetides: Build.Gradle module
     // implementation 'com.google.guava:guava:14.0.1'
@@ -50,7 +50,7 @@ public class ChessTeamsActivity extends AppCompatActivity {
         Punts puntsEquip3 = new Punts (100, 300);
         // Els equips
         ChessTeam equip1 = new ChessTeam("equip1", "equip1", puntsEquip1);
-        ChessTeam equip2 = new ChessTeam("equip2", "equip3", puntsEquip2);
+        ChessTeam equip2 = new ChessTeam("equip2", "equip2", puntsEquip2);
         ChessTeam equip3 = new ChessTeam("equip3", "equip3", puntsEquip3);
 
         chessTeamList.add(equip1); chessTeamList.add(equip2); chessTeamList.add(equip3);
