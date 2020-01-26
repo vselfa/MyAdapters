@@ -57,6 +57,10 @@ public class MainMenu extends AppCompatActivity {
             intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         }
 
+        if (id == R.id.checkboxAdapter) {
+            intent = new Intent(this, CheckBoxesActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        }
         startActivity(intent); //Starting the new activity
         return true;
     }

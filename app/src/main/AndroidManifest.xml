@@ -10,9 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".Activities.CheckBoxesActivity"
+            android:label="@string/title_activity_chec_boxes"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
             android:name=".Activities.ChessTeamsActivity"
             android:label="@string/title_activity_chess_teams"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Activities.FruitsActivity"
             android:label="@string/title_activity_fruits"

@@ -43,4 +43,10 @@
         android:orderInCategory="100"
         android:title="@string/chess_adapter"
         app:showAsAction="never" />
+
+    <item
+        android:id="@+id/checkboxAdapter"
+        android:orderInCategory="100"
+        android:title="@string/checkbox_adapter"
+        app:showAsAction="never" />
 </menu>

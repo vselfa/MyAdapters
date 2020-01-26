@@ -20,4 +20,8 @@
     <string name="fruit_adapter">Fruits Adapter</string>
     <string name="title_activity_chess_teams">Chess Teams Activity</string>
     <string name="chess_adapter">Chess Team Adapter</string>
+    <string name="title_activity_chec_boxes">Check Boxes Activity</string>
+    <string name="check_box">CheckBox</string>
+    <string name="text_checkboxes">Text CB</string>
+    <string name="checkbox_adapter">Check Box Adapter</string>
 </resources>
