@@ -7,41 +7,45 @@
     android:orientation="horizontal"
     android:weightSum="100">
 
-    <ImageView
-        android:id="@+id/fruitPhoto"
-        android:layout_width="105dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="5dp"
-        android:layout_marginLeft="5dp"
-        android:paddingTop="5dp"
-        android:paddingBottom="5dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_book" />
 
     <TextView
         android:id="@+id/fruitName"
-        android:layout_width="345dp"
-        android:layout_height="41dp"
-        android:layout_marginStart="109dp"
-        android:layout_marginLeft="109dp"
+        android:layout_width="184dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginLeft="96dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
         android:paddingLeft="5dp"
-        android:paddingTop="5dp"
-        android:paddingBottom="5dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="2dp"
         android:text="@string/fruit_name"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ImageView
+        android:id="@+id/fruitPhoto"
+        android:layout_width="88dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="4dp"
+        android:layout_weight="66.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
     <TextView
         android:id="@+id/fruitDescription"
-        android:layout_width="300dp"
-        android:layout_height="33dp"
-        android:layout_marginStart="108dp"
-        android:layout_marginLeft="108dp"
-        android:layout_marginTop="40dp"
+        android:layout_width="182dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginStart="96dp"
+        android:layout_marginLeft="96dp"
+        android:layout_marginTop="56dp"
+        android:gravity="center"
         android:paddingLeft="5dp"
-        android:paddingTop="5dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="3dp"
         android:text="@string/fruit_description"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
