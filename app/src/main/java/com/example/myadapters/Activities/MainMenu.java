@@ -1,10 +1,12 @@
-package com.example.myadapters;
+package com.example.myadapters.Activities;
 
 import android.content.Intent;
 import android.view.Menu;
 import android.view.MenuItem;
 
 import androidx.appcompat.app.AppCompatActivity;
+import com.example.myadapters.Adapters.SimpleAdapterActivity;
+import com.example.myadapters.R;
 
 public class MainMenu extends AppCompatActivity {
 
@@ -19,6 +21,7 @@ public class MainMenu extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
         Intent intent=null;
+
         if (id == R.id.home) {
             intent = new Intent(this, MainActivity.class);
             intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
@@ -46,6 +49,11 @@ public class MainMenu extends AppCompatActivity {
 
         if (id == R.id.fruitsAdapter) {
             intent = new Intent(this, FruitsActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        }
+
+        if (id == R.id.chessTeamsAdapter) {
+            intent = new Intent(this, ChessTeamsActivity.class);
             intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         }
 

@@ -1,4 +1,4 @@
-package com.example.myadapters;
+package com.example.myadapters.Adapters;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -6,9 +6,13 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.myadapters.Model.MyWriter;
+import com.example.myadapters.R;
+
 import java.util.List;
 
 public class ArrayAdapter extends android.widget.ArrayAdapter {
+
     public ArrayAdapter(Context context, List objects) {
         // (context, 0, objects) needed to match the parent constructor!!!
         super(context, 0, objects);

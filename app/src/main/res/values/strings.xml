@@ -18,4 +18,6 @@
     <string name="fruit_name">Fruit name</string>
     <string name="fruit_description">Fruit description</string>
     <string name="fruit_adapter">Fruits Adapter</string>
+    <string name="title_activity_chess_teams">ChessTeamsActivity</string>
+    <string name="chess_adapter">Chess Team Adapter</string>
 </resources>

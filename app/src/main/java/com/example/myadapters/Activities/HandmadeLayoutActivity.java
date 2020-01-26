@@ -1,11 +1,9 @@
-package com.example.myadapters;
+package com.example.myadapters.Activities;
 
 import android.os.Bundle;
 
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
+import com.example.myadapters.R;
 
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.view.View;
@@ -14,7 +12,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
-public class HandmadeLayoutActivity extends MainMenu  {
+public class HandmadeLayoutActivity extends MainMenu {
 
     private String[] llibres = {"El ninot de neu",
             "Senyoria", "Els assassins de l'emperador"};

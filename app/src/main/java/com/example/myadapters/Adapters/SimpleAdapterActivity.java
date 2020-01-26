@@ -1,4 +1,4 @@
-package com.example.myadapters;
+package com.example.myadapters.Adapters;
 
 import android.app.AlertDialog;
 import android.os.Bundle;
@@ -9,15 +9,17 @@ import android.widget.ListView;
 import android.widget.SimpleAdapter;
 import android.widget.TextView;
 
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+
+import com.example.myadapters.Activities.MainMenu;
+import com.example.myadapters.R;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class SimpleAdapterActivity extends MainMenu  {
+public class SimpleAdapterActivity extends MainMenu {
     // Writers
     private String[] writerNames = {"Jaume Cabré", "John Grisman", "Santiago Posteguillo"};
     private int[] writerPhotos = {R.drawable.jaume_cabre, R.drawable.john_grisham, R.drawable.santiago_posteguillo};

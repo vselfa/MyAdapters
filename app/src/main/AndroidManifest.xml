@@ -10,27 +10,31 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".FruitsActivity"
-            android:label="@string/title_activity_fruits"
+            android:name=".Activities.ChessTeamsActivity"
+            android:label="@string/title_activity_chess_teams"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
-            android:name=".ArrayAdapterActivity"
+            android:name=".Activities.FruitsActivity"
+            android:label="@string/title_activity_fruits"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.ArrayAdapterActivity"
             android:label="@string/title_activity_array_adapter"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".SimpleAdapterActivity"
+            android:name=".Adapters.SimpleAdapterActivity"
             android:label="@string/title_activity_handmade_layout_with_pictures"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".HandmadeLayoutActivity"
+            android:name=".Activities.HandmadeLayoutActivity"
             android:label="@string/title_activity_handmade_layout"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".FirstAdapterActivity"
+            android:name=".Activities.FirstAdapterActivity"
             android:label="@string/title_activity_simplest_adapter"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Activities.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>

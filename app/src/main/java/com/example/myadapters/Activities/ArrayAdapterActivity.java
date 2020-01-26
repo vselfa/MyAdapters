@@ -1,9 +1,8 @@
-package com.example.myadapters;
+package com.example.myadapters.Activities;
 
 import android.app.AlertDialog;
 import android.os.Bundle;
 
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.view.View;
@@ -11,6 +10,10 @@ import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import com.example.myadapters.Adapters.ArrayAdapter;
+import com.example.myadapters.Model.MyWriter;
+import com.example.myadapters.R;
 
 import java.util.ArrayList;
 

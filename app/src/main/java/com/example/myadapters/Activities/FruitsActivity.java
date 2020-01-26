@@ -1,13 +1,15 @@
-package com.example.myadapters;
+package com.example.myadapters.Activities;
 
 import android.os.Bundle;
 
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.util.Log;
 import android.widget.ListView;
-import android.widget.TextView;
+
+import com.example.myadapters.Adapters.FruitsAdapter;
+import com.example.myadapters.Model.MyFruit;
+import com.example.myadapters.R;
 
 import java.util.ArrayList;
 

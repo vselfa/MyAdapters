@@ -1,4 +1,4 @@
-package com.example.myadapters;
+package com.example.myadapters.Model;
 
 public class MyWriter {
 

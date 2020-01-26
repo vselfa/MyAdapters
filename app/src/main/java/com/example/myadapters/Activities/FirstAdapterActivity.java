@@ -1,4 +1,4 @@
-package com.example.myadapters;
+package com.example.myadapters.Activities;
 
 import android.os.Bundle;
 
@@ -9,6 +9,8 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
+
+import com.example.myadapters.R;
 
 public class FirstAdapterActivity extends MainMenu {
 
