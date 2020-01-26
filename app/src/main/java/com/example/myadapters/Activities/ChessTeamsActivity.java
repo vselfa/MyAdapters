@@ -53,8 +53,6 @@ public class ChessTeamsActivity extends AppCompatActivity {
         ChessTeam equip2 = new ChessTeam("equip2", "equip3", puntsEquip2);
         ChessTeam equip3 = new ChessTeam("equip3", "equip3", puntsEquip3);
 
-
-
         chessTeamList.add(equip1); chessTeamList.add(equip2); chessTeamList.add(equip3);
         // El adapter: EquipListAdapter adapter;
         ChessTeamsAdapter adapter = new ChessTeamsAdapter(getContext(),

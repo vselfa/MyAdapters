@@ -47,9 +47,15 @@ public class ChessTeamsAdapter  extends ArrayAdapter<ChessTeam> {
         TextView puntsJugadors =  convertView.findViewById(R.id.puntsJugadors);
 
         // Transformar el nom de la foto en R.drawable.nom_foto
-        // Eliminar corxets del nom de la foto
+        // Eliminar corxets del nom de la foto si utilitzem Multimap
+        String nomFoto = fotoE.substring(1, fotoE.length()-1);
+        // int foto = mContext.getResources().getIdentifier( nomFoto, "drawable", mContext.getPackageName());
+        // No elimiminem corchets
         int foto = mContext.getResources().getIdentifier( fotoE, "drawable", mContext.getPackageName());
         fotoEquip.setImageResource(foto);
+        // Eliminar corxets del nom de l'equip si utilitzem Multimap
+        // String nomEquipAux = equip.getNomEquip().substring(1, equip.getNomEquip().length()-1);
+        // nomEquip.setText(nomEquipAux);
         nomEquip.setText(equip.getNomEquip());
         // Els punts
         puntsEquip.setText(String.valueOf(punts.getPuntsEquip()));
